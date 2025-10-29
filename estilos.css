@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://images.unsplash.com/photo-1573496789515-d6f8f981aa3f');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #00ffff;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.menu-button {
+  background-color: #1f75fe;
+  color: white;
+  padding: 15px 40px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+  background-color: #0044cc;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.jugadores-section {
+  padding: 60px 20px;
+  background-color: #101820;
+  text-align: center;
+}
+
+.jugadores-section h2 {
+  font-size: 3em;
+  color: #00ffff;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.jugadores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jugador-card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s;
+}
+
+.jugador-card:hover {
+  transform: translateY(-8px);
+}
+
+.jugador-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.jugador-info {
+  padding: 20px;
+}
+
+.jugador-info h3 {
+  margin: 0 0 10px;
+  color: #00aced;
+}
+
+.jugador-info p {
+  font-size: 15px;
+  color: #ccc;
+}
+
+@media (max-width: 500px) {
+  .jugador-card img {
+    height: 200px;
+  }
+}
+
+
+    

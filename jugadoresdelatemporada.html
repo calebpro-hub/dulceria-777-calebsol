@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jugadores de la Temporada 2025 - Carrusel</title>
+    <!-- Vincula el CSS externo -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <h1>🏒 Jugadores de la Temporada 2025</h1>
+
+    <div class="carousel">
+        <div class="slides">
+            <div class="slide">
+                <img src="https://cdn.nhl.com/playerheadshots/8471214.png" alt="Connor McDavid" />
+                <div class="caption">Connor McDavid</div>
+            </div>
+            <div class="slide">
+                <img src="https://cdn.nhl.com/playerheadshots/8479318.png" alt="Auston Matthews" />
+                <div class="caption">Auston Matthews</div>
+            </div>
+            <div class="slide">
+                <img src="https://cdn.nhl.com/playerheadshots/8478402.png" alt="Leon Draisaitl" />
+                <div class="caption">Leon Draisaitl</div>
+            </div>
+            <div class="slide">
+                <img src="https://cdn.nhl.com/playerheadshots/8476459.png" alt="Nathan MacKinnon" />
+                <div class="caption">Nathan MacKinnon</div>
+            </div>
+            <div class="slide">
+                <img src="https://cdn.nhl.com/playerheadshots/8477497.png" alt="Sidney Crosby" />
+                <div class="caption">Sidney Crosby</div>
+            </div>
+        </div>
+
+        <button class="nav-button prev" aria-label="Anterior">&#10094;</button>
+        <button class="nav-button next" aria-label="Siguiente">&#10095;</button>
+
+        <div class="indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+            <span class="indicator" data-slide="4"></span>
+        </div>
+    </div>
+
+    <!-- Vincula el JavaScript externo justo antes del cierre de body -->
+    <script src="script.js"></script>
+</body>
+</html>
